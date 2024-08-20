@@ -1,0 +1,48 @@
+
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+.parallax-container{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.horizontal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+}
+
+
+.horizontal-1{
+    background-image: url("Default_ImageParallax_Horizontal_Background.webp");
+    z-index: 1;
+}
+
+.horizontal-2{
+    background-image: url("Default_ImageParallax_Horizontal_Middle.webp");
+    z-index: 2;
+}
+
+.horizontal-3{
+    background-image: url('Default_ImageParallax_Horizontal_Foreground.webp');
+    z-index: 3;
+}
+
+.content{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
